@@ -1,0 +1,385 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pointer, .pointer:hover {
+    cursor: auto;
+}
+html,body{
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+}
+.main-nav, nav {
+    width: 100%;
+    display: inline-block;
+    background-color: #001b2e;
+}
+#home li, #home [href] {
+    display: inline-block;
+    font-size: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    color: white;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#home li, #home h1, #home [href]:hover {
+    background-color: #001b2e;
+    color: #36a9e0;
+}
+#home ul {
+    float: right;
+    height: 25px;
+    padding: 1px;
+    border: 3px solid #001b2e;
+}
+#home h1 {
+    display: inline-block;
+    font-size: larger;
+    margin-left: 10px;
+    border-top: 3px solid #36a9e0;
+    border-bottom: 3px solid #36a9e0;
+    padding: 2px 0;
+}
+.profile-info {
+    background-color: #ebebeb;
+}
+.profile-info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 25px solid #ebebeb;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.profile-text-blue {
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+    color: #36a9e0;
+    font-size: 35px;
+}
+.profile-text-grey {
+    text-align: center;
+    margin-top: 5px;
+    color: #001b2e;
+    font-weight: 200;
+    font-size: 30px;
+}
+.profile-buttons {
+    text-align: center;
+}
+.profile-buttons button {
+    background-color: #36a9e0;
+    color: #001b2e;
+    font-size: 25px;
+    padding: 20px;
+    margin: 0px 8px 50px;
+    border-radius: 60px;
+    border: 1px solid #36a9e0;
+}
+.profile-buttons button:hover {
+    background-color: #001b2e;
+    border: #36a9e0;
+    color: #36a9e0;
+    cursor: pointer;
+    border: 1px solid #36a9e0;
+}
+.about-me {
+    background-color: #001b2e;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+.about-me h4, span, [href] {
+    color: #36a9e0;
+    font-weight: bold;
+}
+.about-me h2 {
+    color: #36a9e0;
+    font-weight: bold;
+    font-size: 40px;
+}
+.about-me h3 {
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+}
+.about-me p {
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+.about-follow-text {
+    color: #36a9e0;
+}
+.socials-buttons button {
+    background-color: #36a9e0;
+    color: #001b2e;
+    font-size: 25px;
+    padding: 20px;
+    margin: 0px 8px 25px;
+    border-radius: 60px;
+    border: 1px solid #001b2e;
+}
+.socials-buttons button:hover {
+    background-color: #001b2e;
+    border: 1px solid #36a9e0;
+    color: #36a9e0;
+    cursor: pointer;
+}
+.skills-info div{
+    width: 250px;
+    height: 400px;
+    margin: 20px 20px 50px;
+    display: inline-block;
+    border: 2px solid #897c80;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+.skills-info img {
+    height: 180px;
+    padding: 15px;
+}
+.experience {
+    background-color: #ebebeb;
+    align-content: center;
+    text-align: center;
+}
+.experience h2 {
+    color: #001b2e;
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.experience h4 {
+    color: #001b2e;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.experience-education h2 {
+    padding-top: 0px;
+}
+.experience-education div {
+    width: 250px;
+    display: inline-block;
+    border: 2px solid #001b2e;
+    height: 420px;
+    border-radius: 10px;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+}
+.experience-employment div {
+    width: 250px;
+    display: inline-block;
+    border: 2px solid #001b2e;
+    height: 220px;
+    border-radius: 10px;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.experience-education div img {
+    height: 135px;
+    align-content: center;
+}
+.experience-education h4 {
+    font-size: 30px;
+    color: #001b2e;
+    font-weight: bold;
+}
+.experience-education p {
+    color: #001b2e;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.experience-education [href] {
+    color: #001b2e;
+    text-decoration: none;
+}
+.experience-education [href]:hover {
+    color: #36a9e0;
+    text-decoration: none;
+}
+.experience-education div button {
+    vertical-align: bottom;
+    background-color: #36a9e0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: #001b2e;
+}
+.experience-education div button:hover {
+    background-color: #001b2e;
+    border: #36a9e0;
+    color: #36a9e0;
+    cursor: pointer;
+    border: 1px solid #36a9e0;
+}
+.experience-employment h4 {
+    font-size: 30px;
+    color: #001b2e;
+    font-weight: bold;
+}
+.experience-employment h5 {
+    color: #001b2e;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.experience-employment p {
+    color: #001b2e;
+    height: 60px;
+}
+.experience-employment [href] {
+    color: #001b2e;
+    text-decoration: none;
+}
+.experience-employment [href]:hover {
+    color: #36a9e0;
+    text-decoration: none;
+}
+.experience-employment div button {
+    vertical-align: bottom;
+    background-color: #36a9e0;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: #001b2e;
+}
+.experience-employment div button:hover {
+    background-color: #001b2e;
+    border: #36a9e0;
+    color: #36a9e0;
+    cursor: pointer;
+    border: 1px solid #36a9e0;
+}
+.portfolio {
+    background-color: #001b2e;
+    align-content: center;
+    text-align: center;
+    padding: 50px;
+}
+.portfolio h2 {
+    margin-top: 0;
+    color: #36a9e0;
+    padding-top: 25px;
+}
+.portfolio h3 {
+    color: white;
+}
+.projects button, .projects div {
+    height: 225px;
+    width: 225px;
+    border: 2px solid #36a9e0;
+    border-radius: 10px;
+    background-color: #001b2e;
+    display: inline-block;
+    margin: 5px;
+}
+.projects img {
+    height: 200px;
+    width: 200px;
+}
+.contact {
+    background-color: #ebebeb;
+    color: #001b2e;
+    text-align: center;
+    align-content: center;
+}
+.contact h2 {
+    margin-top: 0;
+    padding-top: 20px;
+    color: #36a9e0;
+}
+.contact p {
+    padding: 10px 10px 25px 10px;
+    margin: 0;
+}
+input[type=text], select, textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #36a9e0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 15px 16px 15px;
+    resize: vertical;
+    display: block;
+    background-color: #001b2e;
+    color: #ebebeb;
+}
+input[type=submit] {
+    background-color: #001b2e;
+    color: #36a9e0;
+    font-size: 15px;
+    padding: 15px 30px;
+    margin: 0px 8px 50px;
+    border-radius: 60px;
+    border: 1px solid #001b2e;
+}
+input[type=submit]:hover {
+    background-color: #36a9e0;
+    color: #001b2e;
+}
+::placeholder {
+    color: #ebebeb;
+}
+div form {
+    margin: 1% 20%;
+}
+footer {
+    background-color: #36a9e0;
+    text-align: center;
+}
+footer h2 {
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+    color: #001b2e;
+}
+footer h3 {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: small;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #001b2e;
+}
+footer h4 {
+    margin: 0;
+    color: #001b2e;
+    font-size: small;
+    padding-bottom: 25px;
+}
+footer ul, footer li, footer [href], footer nav {
+    display: inline-block;
+    font-size: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #36a9e0;
+    margin: 0px 10px 5px 10px;
+    align-content: center;
+    padding: 0px;
+}
+footer img {
+    height: 30px;
+}
+footer div {
+    width: 100%;
+    align-content: center;
+}
