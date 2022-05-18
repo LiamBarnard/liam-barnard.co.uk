@@ -1,757 +1,174 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
-.pointer, .pointer:hover {
-    cursor: auto;
-}
-html,body{
-    overflow-x: hidden;
-}
-body {
-    margin: 0;
-}
-main {
-    position: relative;
-    border-top: 110px solid #ebebeb;
-}
-
-/* Header Section */
-@media only screen and (min-width: 1024px) {
-    #main-navbar h1 {
-        display: inline-block;
-        font-size: larger;
-        margin-left: 15px;
-        border-top: 3px solid #36a9e0;
-        border-bottom: 3px solid #36a9e0;
-        padding: 2px 0;
-    }
-
-    .main-nav, nav {
-        width: 100%;
-        display: inline-block;
-        background-color: #001b2e;
-        position: fixed;
-        z-index: 10;
-    }
-
-    #main-navbar li, #main-navbar [href] {
-        display: inline-block;
-        font-size: 20px;
-        text-decoration: none;
-        vertical-align: middle;
-        color: white;
-        margin-right: 15px;
-        text-transform: uppercase;
-        font-weight: 400;
-    }
-
-    #main-navbar li, #main-navbar h1, #main-navbar [href]:hover {
-        background-color: #001b2e;
-        color: #36a9e0;
-    }
-
-    #main-navbar ul {
-        float: right;
-        height: 25px;
-        padding: 1px;
-        border: 3px solid #001b2e;
-    }
-}
-
-@media only screen and (max-width: 1023px) {
-    #main-navbar h1 {
-        display: none;
-    }
-
-    .main-nav, nav {
-        width: 100%;
-        display: inline-block;
-        background-color: #001b2e;
-        position: fixed;
-        z-index: 10;
-    }
-
-    #main-navbar li, #main-navbar [href] {
-        display: inline-block;
-        font-size: 1rem;
-        text-decoration: none;
-        vertical-align: middle;
-        color: #36a9e0;
-        margin-right: .5rem;
-        text-transform: uppercase;
-        font-weight: 700;
-        text-align: justify;
-        margin: 0px auto;
-    }
-
-    #main-navbar ul {
-        display: flex;
-        align-content: space-between;
-        flex-wrap: wrap;
-        width: auto;
-        height: 25px;
-        padding: 1px;
-        border: 3px solid #001b2e;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    #main-navbar h1 {
-        display: none;
-    }
-
-    .main-nav, nav {
-        width: 100%;
-        display: inline-block;
-        background-color: #001b2e;
-        position: fixed;
-        z-index: 10;
-    }
-
-    #main-navbar li, #main-navbar [href] {
-        display: inline-flex;
-        font-size: .7rem;
-        text-decoration: none;
-        vertical-align: middle;
-        color: #36a9e0;
-        margin-right: .25rem;
-        text-transform: uppercase;
-        font-weight: 700;
-        align-content: space-between
-    }
-
-    #main-navbar ul {
-        display: flex;
-        align-content: space-between;
-        flex-wrap: wrap;
-        width: auto;
-        height: 25px;
-        padding: 1px;
-        border: 3px solid #001b2e;
-    }
-}
-
-/* Profile info */
-@media only screen and (min-width:769px) {
-    .profile-info {
-        background-color: #ebebeb;
-    }
-
-    .profile-info img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border: 25px solid #ebebeb;
-        border-radius: 50%;
-        height: 350px;
-        width: 350px;
-    }
-
-    .profile-text-blue {
-        text-align: center;
-        margin: 5px 0px 0px 0px;
-        color: #36a9e0;
-        font-size: 35px;
-    }
-
-    .profile-text-grey {
-        text-align: center;
-        margin-top: 5px;
-        color: #001b2e;
-        font-weight: 200;
-        font-size: 30px;
-    }
-
-    .profile-buttons {
-        text-align: center;
-    }
-
-    .profile-buttons button {
-        background-color: #36a9e0;
-        color: #001b2e;
-        font-size: 25px;
-        padding: 20px;
-        margin: 0px 8px 50px;
-        border-radius: 60px;
-        border: 1px solid #36a9e0;
-    }
-
-    .profile-buttons button:hover {
-        background-color: #001b2e;
-        border: #36a9e0;
-        color: #36a9e0;
-        cursor: pointer;
-        border: 1px solid #36a9e0;
-    }
-}
-
-@media only screen and (max-width:768px) {
-    .profile-info {
-        background-color: #ebebeb;
-    }
-
-    .profile-info img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border: 25px solid #ebebeb;
-        border-radius: 50%;
-        height: 320px;
-        width: 320px;
-    }
-
-    .profile-text-blue {
-        text-align: center;
-        margin: 5px 0px 0px 0px;
-        color: #36a9e0;
-        font-size: 30px;
-    }
-
-    .profile-text-grey {
-        text-align: center;
-        margin-top: 5px;
-        color: #001b2e;
-        font-weight: 200;
-        font-size: 25px;
-    }
-
-    .profile-buttons {
-        text-align: center;
-    }
-
-    .profile-buttons button {
-        background-color: #36a9e0;
-        color: #001b2e;
-        font-size: 16px;
-        padding: 15px;
-        margin: 0px 8px 50px;
-        border-radius: 60px;
-        border: 1px solid #36a9e0;
-    }
-
-    .profile-buttons button:hover {
-        background-color: #001b2e;
-        border: #36a9e0;
-        color: #36a9e0;
-        cursor: pointer;
-        border: 1px solid #36a9e0;
-    }
-}
-/*About Me*/
-
-@media only screen and (min-width:769px) {
-    .about-me {
-        background-color: #001b2e;
-        padding: 20px;
-        align-content: center;
-        text-align: center;
-        color: white;
-        padding: 50px 10%;
-    }
-
-    .about-me h4, span, [href] {
-        color: #36a9e0;
-        font-weight: bold;
-    }
-
-    .about-me h2 {
-        color: #36a9e0;
-        font-weight: bold;
-        font-size: 40px;
-    }
-
-    .about-me h3 {
-        color: white;
-        font-size: 25px;
-        justify-content: center;
-    }
-
-    .about-me p {
-        color: white;
-        font-size: 20px;
-        justify-content: center;
-    }
-
-    .about-follow-text {
-        color: #36a9e0;
-    }
-
-    .socials-buttons button {
-        background-color: #36a9e0;
-        color: #001b2e;
-        font-size: 25px;
-        padding: 20px;
-        margin: 0px 8px 25px;
-        border-radius: 60px;
-        border: 1px solid #001b2e;
-    }
-
-    .socials-buttons button:hover {
-        background-color: #001b2e;
-        border: 1px solid #36a9e0;
-        color: #36a9e0;
-        cursor: pointer;
-    }
-
-    .skills-info {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .skills-info div{
-        width: 250px;
-        height: 420px;
-        margin: 20px 20px 50px;
-        display: inline-block;
-        border: 2px solid #897c80;
-        border-radius: 10px;
-        padding: 10px;
-        text-align: center;
-        vertical-align: top;
-    }
-
-    .skills-info img {
-        height: 180px;
-        padding: 15px;
-    }
-}
-
-@media only screen and (max-width:768px) {
-    .about-me {
-        background-color: #001b2e;
-        padding: 20px;
-        align-content: center;
-        text-align: center;
-        color: white;
-    }
-
-    .about-me h4, span, [href] {
-        color: #36a9e0;
-        font-weight: bold;
-    }
-
-    .about-me h2 {
-        color: #36a9e0;
-        font-weight: bold;
-        font-size: 40px;
-    }
-
-    .about-me h3 {
-        color: white;
-        font-size: 25px;
-        justify-content: center;
-    }
-
-    .about-me p {
-        color: white;
-        font-size: 20px;
-        justify-content: center;
-    }
-
-    .about-follow-text {
-        color: #36a9e0;
-    }
-
-    .socials-buttons button {
-        background-color: #36a9e0;
-        color: #001b2e;
-        font-size: 25px;
-        padding: 20px;
-        margin: 0px 8px 25px;
-        border-radius: 60px;
-        border: 1px solid #001b2e;
-    }
-
-    .socials-buttons button:hover {
-        background-color: #001b2e;
-        border: 1px solid #36a9e0;
-        color: #36a9e0;
-        cursor: pointer;
-    }
-
-    .skills-info {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .skills-info div{
-        width: 250px;
-        height: 420px;
-        margin: 20px 20px 50px;
-        display: inline-block;
-        border: 2px solid #897c80;
-        border-radius: 10px;
-        padding: 10px;
-        text-align: center;
-        vertical-align: top;
-    }
-
-    .skills-info img {
-        height: 180px;
-        padding: 15px;
-    }
-}
-
-@media only screen and (max-width:380px) {
-    .about-me {
-        background-color: #001b2e;
-        padding: 20px;
-        align-content: center;
-        text-align: center;
-        color: white;
-    }
-
-    .about-me h4, span, [href] {
-        color: #36a9e0;
-        font-weight: bold;
-    }
-
-    .about-me h2 {
-        color: #36a9e0;
-        font-weight: bold;
-        font-size: 30px;
-    }
-
-    .about-me h3 {
-        color: white;
-        font-size: 20px;
-        justify-content: center;
-        line-height: 1.3;
-    }
-
-    .about-me p {
-        color: white;
-        font-size: 16px;
-        justify-content: center;
-        line-height: 1.4;
-    }
-
-    .about-follow-text {
-        color: #36a9e0;
-    }
-
-    .socials-buttons button {
-        background-color: #36a9e0;
-        color: #001b2e;
-        font-size: 20px;
-        padding: 15px;
-        margin: 0px 8px 25px;
-        border-radius: 60px;
-        border: 1px solid #001b2e;
-    }
-
-    .socials-buttons button:hover {
-        background-color: #001b2e;
-        border: 1px solid #36a9e0;
-        color: #36a9e0;
-        cursor: pointer;
-    }
-
-    .skills-info {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .skills-info div{
-        width: 240px;
-        height: 380px;
-        margin: 20px 20px 50px;
-        display: inline-block;
-        border: 2px solid #897c80;
-        border-radius: 10px;
-        padding: 10px;
-        text-align: center;
-        vertical-align: top;
-    }
-
-    .skills-info img {
-        height: 180px;
-        padding: 15px;
-    }
-}
-
-/*Experience Section*/
-.experience {
-    background-color: #ebebeb;
-    align-content: center;
-    text-align: center;
-}
-
-.experience h2 {
-    color: #001b2e;
-    margin-top: 0;
-    padding-top: 20px;
-    font-size: 40px;
-}
-
-.experience h4 {
-    color: #001b2e;
-    margin-top: 5px;
-    font-size: 25px;
-}
-
-.experience-education h2 {
-    padding-top: 0px;
-}
-
-.experience-education div {
-    width: 280px;
-    display: inline-block;
-    border: 2px solid #001b2e;
-    height: 430px;
-    border-radius: 10px;
-    vertical-align: middle;
-    padding: 10px;
-    margin: 10px;
-}
-
-.experience-employment div {
-    width: 250px;
-    display: inline-block;
-    border: 2px solid #001b2e;
-    height: 250px;
-    border-radius: 10px;
-    vertical-align: middle;
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 50px;
-}
-
-.experience-education div img {
-    height: 135px;
-    align-content: center;
-}
-
-.experience-education h4 {
-    font-size: 30px;
-    color: #001b2e;
-    font-weight: bold;
-}
-
-.experience-education p {
-    color: #001b2e;
-    height: 60px;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
-
-.experience-education [href] {
-    color: #001b2e;
-    text-decoration: none;
-}
-
-.experience-education [href]:hover {
-    color: #36a9e0;
-    text-decoration: none;
-}
-
-.experience-education div button {
-    vertical-align: bottom;
-    background-color: #36a9e0;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: #001b2e;
-}
-
-.experience-education div button:hover {
-    background-color: #001b2e;
-    border: #36a9e0;
-    color: #36a9e0;
-    cursor: pointer;
-    border: 1px solid #36a9e0;
-}
-
-.experience-employment h4 {
-    font-size: 30px;
-    color: #001b2e;
-    font-weight: bold;
-}
-
-.experience-employment h5 {
-    color: #001b2e;
-    height: 60px;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
-
-.experience-employment p {
-    color: #001b2e;
-    height: 60px;
-}
-
-.experience-employment [href] {
-    color: #001b2e;
-    text-decoration: none;
-}
-
-.experience-employment [href]:hover {
-    color: #36a9e0;
-    text-decoration: none;
-}
-
-.experience-employment div button {
-    vertical-align: bottom;
-    background-color: #36a9e0;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: #001b2e;
-}
-
-.experience-employment div button:hover {
-    background-color: #001b2e;
-    border: #36a9e0;
-    color: #36a9e0;
-    cursor: pointer;
-    border: 1px solid #36a9e0;
-}
-
-/*Portfolio Section*/
-.portfolio {
-    background-color: #001b2e;
-    align-content: center;
-    text-align: center;
-    padding: 50px;
-}
-
-.portfolio h2 {
-    margin-top: 0;
-    color: #36a9e0;
-    padding-top: 25px;
-}
-
-.portfolio h3 {
-    color: white;
-}
-
-.projects button, .projects div {
-    height: 225px;
-    width: 225px;
-    border: 2px solid #36a9e0;
-    border-radius: 10px;
-    background-color: #001b2e;
-    display: inline-block;
-    margin: 5px;
-}
-
-.projects img {
-    height: 200px;
-    width: 200px;
-}
-
-/*Contact Form*/
-.contact {
-    background-color: #ebebeb;
-    color: #001b2e;
-    text-align: center;
-    align-content: center;
-}
-
-.contact h2 {
-    margin-top: 0;
-    padding-top: 20px;
-    color: #36a9e0;
-}
-
-.contact p {
-    padding: 10px 10px 25px 10px;
-    margin: 0;
-}
-
-input[type=text], select, textarea, input[type=email] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #36a9e0;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin: 6px 15px 16px 15px;
-    resize: vertical;
-    display: inline-block;
-    background-color: #001b2e;
-    color: #ebebeb;
-}
-
-input[type=submit] {
-    background-color: #001b2e;
-    color: #36a9e0;
-    font-size: 15px;
-    padding: 15px 30px;
-    margin: 0px 8px 50px;
-    border-radius: 60px;
-    border: 1px solid #001b2e;
-}
-
-input[type=submit]:hover {
-    background-color: #36a9e0;
-    color: #001b2e;
-    cursor: pointer;
-}
-
-::placeholder {
-    color: #ebebeb;
-}
-
-div form {
-    margin: 1% 20%;
-}
-
-/*Footer*/
-footer {
-    background-color: #36a9e0;
-    text-align: center;
-}
-
-footer h2 {
-    margin: 0px;
-    padding: 15px 0px 0px 0px;
-    color: #001b2e;
-}
-
-footer h3 {
-    display: inline-block;
-    padding: 0px 10px;
-    font-size: small;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    color: #001b2e;
-}
-
-footer h4 {
-    margin: 0;
-    color: #001b2e;
-    font-size: small;
-    padding-bottom: 25px;
-}
-
-footer ul, footer li, footer [href], footer nav {
-    display: inline-block;
-    font-size: 10px;
-    text-decoration: none;
-    vertical-align: middle;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 400;
-    text-decoration: none;
-    background-color: #36a9e0;
-    margin: 0px 10px 5px 10px;
-    align-content: center;
-    padding: 0px;
-}
-
-footer img {
-    height: 30px;
-}
-
-footer div {
-    width: 100%;
-    align-content: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources\CSS\styles.css">
+    <title>Liam B's Portfolio</title>
+</head>
+<body>
+    <header class="portfolio-page-header">
+        <!--Nav Bar-->
+        <nav id="main-navbar">
+            <h1>LIAM B</h1>
+            <ul>
+                <li class="hover-blue"><a href="#top">Home</a></li>
+                <li class="hover-blue"><a href="#about-me">About</a></li>
+                <li class="hover-blue"><a href="#experience">Experience</a></li>
+                <li class="hover-blue"><a href="#portfolio">Portfolio</a></li>
+                <li class="hover-blue"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Profile Section-->
+        <section class="profile-info">
+            <div id="home"></div>
+            <div class="profile-content">
+                <img src="resources\img\img-liamb.jpg" alt="Liam Barnard Faceshot" id="profile-picture">
+            </div>
+            <div class="profile-text-main">
+                <h2 class="profile-text-blue">Liam Barnard</h2>
+                <h2 class="profile-text-grey">Cloud Support Engineer</h2>
+                <div class="profile-buttons">
+                    <a href="mailto:lbarnard1994@hotmail.co.uk"><button>Send an Email</button></a>
+                    <a href="resources\LB_CV.pdf" target="_blank"><button>Download CV</button></a>
+                </div>
+            </div>
+        </section>
+        <!--About Me Section-->
+        <section class="about-me">
+            <article id="about-me">
+                <h2 class="about-header">About Me</h2>
+                <h3 class="about-desc">Welcome, my name is <span class="body-blue-text">Liam Barnard</span>. I'm currently a <span class="body-blue-text">Cloud Support Engineer</span> with a keen interest in <span class="body-blue-text">Software Development</span>.</h3>
+                 <p class="about-paragraph">I started my career in the surveying industry straight out of college, I didn't take my first real steps into the IT industry until joining Onecom as a Cloud Support Engineer in late 2021. I've always spent time in front of a screen be it gaming, studying or working. Contrary to my mothers belief my eyes are not yet square so I aspire to continue in the industry learning and progressing as much as I can.</p>
+                <p>I have a keen interest in Front-End development work and I'm looking to take on smaller projects to build my potfolio.</p>
+                <h3 class="about-follow-text">Follow Me on Linkedin or GitHub:</h3>
+                <div class="socials-buttons">
+                    <a href="https://www.linkedin.com/in/liam-barnard/" target="_blank"><button>Linkedin</button></a>
+                    <a href="https://github.com/LiamBarnard" target="_blank"><button>GitHub</button></a>
+                </div>
+            </article>
+            <article>
+                <h2 class="about-header">My Skills</h2>
+                <div class="skills-info">
+                    <div class="skills-html">
+                        <img src="resources\img\html5.png" alt="HTML5 Logo">
+                        <p>As is the norm with many self-taught Software Engineers, HTML5 was my starting point in programming. It was the first programming language I learned.</p>
+                    </div>
+                    <div class="skills-css">
+                        <img src="resources\img\css3.svg" alt="CSS3 Logo">
+                        <p>From completing a Front-End Engineer Career Path on <a href="https://www.codecademy.com/learn/paths/front-end-engineer-career-path" target="_blank">Codecademy</a> I picked up CSS3. I spent a lot of time working on CSS to ensure I was competent using the language.</p>
+                    </div>
+                    <div class="skills-css">
+                        <img src="resources\img\logo-javascript.svg" alt="Javascript Logo">
+                        <p>Arguably the most fun, but most frustrating language I learned, Javascript has taught me more about programming than just coding. Javascript has taught me patience!</p>
+                    </div>
+                    <div class="skills-css">
+                        <img src="resources\img\logo-github-vect.svg" alt="GitHub Logo">
+                        <p>GitHub was the version control system I've used while learning with some online colleagues. Why not check out my projects by going to my GitHub profile?</p>
+                    </div>
+                    <div class="skills-css">
+                        <img src="resources\img\logo-azure.svg" alt="Microsoft Azure Logo">
+                        <p>I am familiar with Azure services, having studied for to AZ-900 exam. During lockdown I gathered experience deploying and maintining Linux Virtual Machines.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!--Experience Section-->
+        <section class="experience">
+            <div class="experience-top-text">
+                <h2 id="experience">My Experience</h2>
+                <h4>An overview of my past experiences</h4>
+            </div>
+            <div class="experience-education">
+                <h2>Educational Experience</h2>
+                <div class="education-cra">
+                    <h4>Charles Read Academy</h4>
+                    <img src="resources\img\logo-charles-read.png" alt="CRA Logo">
+                    <p>11 GCSE's including a Distinction in IT</p>
+                    <button><a href="https://www.charlesreadacademy.co.uk/" target="_blank">Website</a></button>
+                </div>
+                <div class="education-grantham">
+                    <h4>Grantham College</h4>
+                    <img src="resources\img\logo-granthamcollege.png" alt="Gratham College Logo">
+                    <p>AS Levels in English Literature and Business Studies</p>
+                    <button><a href="https://www.grantham.ac.uk/" target="_blank">Website</a></button>
+                </div>
+                <div class="education-uel">
+                    <h4>University of East London</h4>
+                    <img src="resources\img\logo-uel.jpg" alt="UEL Logo">
+                    <p>BSc Hons in Surveying and Mapping Sciences</p>
+                    <button><a href="https://www.uel.ac.uk" target="_blank">Website</a></button>
+                </div>
+            </div>
+            <div class="experience-employment">
+                <h2>Employment Experience</h2>
+                <div class="employment-slc">
+                    <h4>SLC Associates</h4>
+                    <h5>Aviation Surveyor<br>2012-2021</h5>
+                    <button><a href="http://slcassociates.co.uk/" target="_blank">Website</a></button>
+                </div>
+                <div class="employment-onecom">
+                    <h4>Onecom</h4>
+                    <h5>Cloud Support Engineer<br>2021-Present</h5>
+                    <button><a href="https://www.onecom.co.uk/" target="_blank">Website</a></button>
+                </div>
+            </div>
+        <!--Portfolio Section-->
+        </section>
+        <section class="portfolio">
+            <div id="portfolio">
+                <h2>Portfolio</h2>
+                <h3>Click the buttons below to see other websites and projects from my Portfolio (Work in Progress!)</h3>
+            </div>
+            <div class="projects">
+                <button class="liamb-portfolio"><a href="https:/liambarnard.github.io" target="_blank"><img src="resources\img\pf-liamb.PNG" alt="Liam B Logo"></a></button>
+                <button class="theproactiveproject-portfolio"><a href="https:/theproactiveproject.github.io" target="_blank"><img src="resources\img\pf-theproactiveproject-logo.png" alt="The Proactive Project"></a></button>
+            </div>
+        </section>
+        <!--Contact Form-->
+        <section class="contact">
+            <div id="contact">
+                <h2>Contact Me</h2>
+                <h3>Please fill in the form below and I will be in touch ASAP!</h3>
+            </div>
+            <div class="contact-form">
+                <form action="https://formsubmit.co/lbarnard1994@hotmail.co.uk" method="POST">
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                    <input type="text" id="phone-number" name="phone-number" placeholder="Your Contact Number">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <p>Thank you.</p>
+        </section>
+    </main>
+    <footer class="portfolio-page-footer">
+        <div class="footer-info">
+            <h2>Contact Information:</h2>
+            <h3>Email: lbarnard1994@hotmail.co.uk</h3>
+            <h3>Phone +44 7990063666</h3>
+        </div>
+        <div class="footer-nav">
+            <nav id="footer">
+                <ul>
+                    <li class="hover-blue"><a href="#home">Home</a></li>
+                    <li class="hover-blue"><a href="#about-me">About</a></li>
+                    <li class="hover-blue"><a href="#experience">Experience</a></li>
+                    <li class="hover-blue"><a href="#portfolio">Portfolio</a></li>
+                    <li class="hover-blue"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/liam-barnard/" target="_blank"><img src="resources\img\logo-linkedin.png" alt="Linkedin Logo"></a>
+            <a href="https://github.com/LiamBarnard" target="_blank"><img src="resources\img\logo-github.svg" alt="GitHub Logo"></a>
+        </div>
+        <h4>Copyright &copy; 2022 Liam Barnard. All Rights Reserved.</h4>
+    </footer>
+</body>
+</html>
