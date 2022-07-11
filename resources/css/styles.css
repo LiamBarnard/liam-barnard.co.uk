@@ -31,7 +31,8 @@ main {
     .main-nav, nav {
         width: 100%;
         display: inline-block;
-        background-color: #001b2e;
+        background: rgb(0,129,222);
+background: linear-gradient(90deg, rgba(0,129,222,1) 0%, rgba(0,27,46,1) 100%, rgba(235,235,235,1) 076633%);
         position: fixed;
         z-index: 10;
     }
@@ -48,15 +49,14 @@ main {
     }
 
     #main-navbar li, #main-navbar h1, #main-navbar [href]:hover {
-        background-color: #001b2e;
-        color: #0081DE;
+        background-color: transparent;
+        color: #ffc525;;
     }
 
     #main-navbar ul {
         float: right;
         height: 25px;
         padding: 1px;
-        border: 3px solid #001b2e;
     }
 }
 
@@ -68,7 +68,7 @@ main {
     .main-nav, nav {
         width: 100%;
         display: inline-block;
-        background-color: #001b2e;
+        background-color: transparent;
         position: fixed;
         z-index: 10;
     }
@@ -93,7 +93,6 @@ main {
         width: auto;
         height: 25px;
         padding: 1px;
-        border: 3px solid #001b2e;
     }
 }
 
@@ -105,7 +104,7 @@ main {
     .main-nav, nav {
         width: 100%;
         display: inline-block;
-        background-color: #001b2e;
+        background-color: transparent;
         position: fixed;
         z-index: 10;
     }
@@ -115,7 +114,7 @@ main {
         font-size: .7rem;
         text-decoration: none;
         vertical-align: middle;
-        color: #0081DE;
+        color: #ffc525;;
         margin-right: .25rem;
         text-transform: uppercase;
         font-weight: 700;
@@ -129,7 +128,6 @@ main {
         width: auto;
         height: 25px;
         padding: 1px;
-        border: 3px solid #001b2e;
     }
 }
 
@@ -179,7 +177,7 @@ main {
     }
 
     .profile-buttons button:hover {
-        background-color: #001b2e;
+        background-color: transparent;
         border: #0081DE;
         color: #0081DE;
         cursor: pointer;
@@ -232,7 +230,7 @@ main {
     }
 
     .profile-buttons button:hover {
-        background-color: #001b2e;
+        background-color: transparent;
         border: #0081DE;
         color: #0081DE;
         cursor: pointer;
@@ -243,7 +241,8 @@ main {
 
 @media only screen and (min-width:769px) {
     .about-me {
-        background-color: #001b2e;
+        background: rgb(0,129,222);
+background: linear-gradient(90deg, rgba(0,129,222,1) 0%, rgba(0,27,46,1) 100%, rgba(235,235,235,1) 076633%);
         padding: 20px;
         align-content: center;
         text-align: center;
@@ -252,12 +251,12 @@ main {
     }
 
     .about-me h4, span, [href] {
-        color: #0081DE;
+        color: #ffc525;;
         font-weight: bold;
     }
 
     .about-me h2 {
-        color: #0081DE;
+        color: #ffc525;;
         font-weight: bold;
         font-size: 40px;
     }
@@ -279,7 +278,7 @@ main {
     }
 
     .socials-buttons button {
-        background-color: #0081DE;
+        background-color: #ffc525;;
         color: #001b2e;
         font-size: 25px;
         padding: 20px;
@@ -289,7 +288,7 @@ main {
     }
 
     .socials-buttons button:hover {
-        background-color: #001b2e;
+        background-color: transparent;
         border: 1px solid #0081DE;
         color: #0081DE;
         cursor: pointer;
@@ -306,6 +305,7 @@ main {
         margin: 20px 20px 50px;
         display: inline-block;
         border: 2px solid #0081DE;
+        background-color: #001b2e;
         border-radius: 10px;
         padding: 10px;
         text-align: center;
@@ -320,7 +320,8 @@ main {
 
 @media only screen and (max-width:768px) {
     .about-me {
-        background-color: #001b2e;
+        background: rgb(0,129,222);
+background: linear-gradient(90deg, rgba(0,129,222,1) 0%, rgba(0,27,46,1) 100%, rgba(235,235,235,1) 076633%);
         padding: 20px;
         align-content: center;
         text-align: center;
@@ -328,12 +329,12 @@ main {
     }
 
     .about-me h4, span, [href] {
-        color: #0081DE;
+        color: #ffc525;;
         font-weight: bold;
     }
 
     .about-me h2 {
-        color: #0081DE;
+        color: #ffc525;;
         font-weight: bold;
         font-size: 40px;
     }
@@ -355,7 +356,7 @@ main {
     }
 
     .socials-buttons button {
-        background-color: #0081DE;
+        background-color: #ffc525;;
         color: #001b2e;
         font-size: 25px;
         padding: 20px;
@@ -365,7 +366,7 @@ main {
     }
 
     .socials-buttons button:hover {
-        background-color: #001b2e;
+        background-color: transparent;
         border: 1px solid #0081DE;
         color: #0081DE;
         cursor: pointer;
@@ -382,6 +383,7 @@ main {
         margin: 20px 20px 50px;
         display: inline-block;
         border: 2px solid #0081DE;
+        background-color: #001b2e;
         border-radius: 10px;
         padding: 10px;
         text-align: center;
@@ -396,7 +398,8 @@ main {
 
 @media only screen and (max-width:380px) {
     .about-me {
-        background-color: #001b2e;
+        background: rgb(0,129,222);
+        background: linear-gradient(90deg, rgba(0,129,222,1) 0%, rgba(0,27,46,1) 100%, rgba(235,235,235,1) 076633%);
         padding: 20px;
         align-content: center;
         text-align: center;
@@ -404,12 +407,12 @@ main {
     }
 
     .about-me h4, span, [href] {
-        color: #0081DE;
+        color: #ffc525;;
         font-weight: bold;
     }
 
     .about-me h2 {
-        color: #0081DE;
+        color: #ffc525;;
         font-weight: bold;
         font-size: 30px;
     }
@@ -433,7 +436,7 @@ main {
     }
 
     .socials-buttons button {
-        background-color: #0081DE;
+        background-color: #ffc525;;
         color: #001b2e;
         font-size: 20px;
         padding: 15px;
@@ -443,7 +446,7 @@ main {
     }
 
     .socials-buttons button:hover {
-        background-color: #001b2e;
+        background-color: transparent;
         border: 1px solid #0081DE;
         color: #0081DE;
         cursor: pointer;
@@ -458,6 +461,7 @@ main {
     .skills-info div {
         width: 240px;
         margin: 20px 20px 50px;
+        background-color: #001b2e;
         display: inline-block;
         border: 2px solid #0081DE;
         border-radius: 10px;
@@ -559,7 +563,7 @@ main {
 }
 
 .experience-education div button:hover {
-    background-color: #001b2e;
+    background-color: transparent;
     border: #0081DE;
     color: #0081DE;
     cursor: pointer;
@@ -606,7 +610,7 @@ main {
 }
 
 .experience-employment div button:hover {
-    background-color: #001b2e;
+    background-color: transparent;
     border: #0081DE;
     color: #0081DE;
     cursor: pointer;
@@ -615,7 +619,8 @@ main {
 
 /*Portfolio Section*/
 .portfolio {
-    background-color: #001b2e;
+    background: rgb(0,129,222);
+background: linear-gradient(90deg, rgba(0,129,222,1) 0%, rgba(0,27,46,1) 100%, rgba(235,235,235,1) 076633%);
     align-content: center;
     text-align: center;
     padding: 50px;
@@ -623,7 +628,7 @@ main {
 
 .portfolio h2 {
     margin-top: 0;
-    color: #0081DE;
+    color: #ffc525;;
     padding-top: 25px;
 }
 
@@ -635,6 +640,7 @@ main {
 .portfolio-section {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .portfolio-div {
@@ -649,7 +655,7 @@ main {
 
 .portfolio-div a {
     color: #0081DE;
-    background-color: #001b2e;
+    background-color: #ffc525;
     width: 150px;
     padding: 0.75rem;
     border-radius: 25px;
@@ -658,8 +664,8 @@ main {
 }
 
 .portfolio-div a:hover {
-    color: #001b2e;
-    background-color: #0081DE;
+    color: #ffc525;
+    background-color: #001b2e;
     width: 150px;
     padding: 0.75rem;
     border-radius: 25px;
@@ -703,12 +709,13 @@ input[type=text], select, textarea, input[type=email] {
     margin: 6px 15px 16px 15px;
     resize: vertical;
     display: inline-block;
-    background-color: #001b2e;
+    background: rgb(0,129,222);
+background: linear-gradient(90deg, rgba(0,129,222,1) 0%, rgba(0,27,46,1) 100%, rgba(235,235,235,1) 076633%);
     color: #ebebeb;
 }
 
 input[type=submit] {
-    background-color: #001b2e;
+    background-color: transparent;
     color: #0081DE;
     font-size: 15px;
     padding: 15px 30px;
