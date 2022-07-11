@@ -10,6 +10,7 @@ html,body{
 }
 body {
     margin: 0;
+    letter-spacing: 1px;
 }
 main {
     position: relative;
@@ -22,8 +23,8 @@ main {
         display: inline-block;
         font-size: larger;
         margin-left: 15px;
-        border-top: 3px solid #36a9e0;
-        border-bottom: 3px solid #36a9e0;
+        border-top: 3px solid #0081DE;
+        border-bottom: 3px solid #0081DE;
         padding: 2px 0;
     }
 
@@ -48,7 +49,7 @@ main {
 
     #main-navbar li, #main-navbar h1, #main-navbar [href]:hover {
         background-color: #001b2e;
-        color: #36a9e0;
+        color: #0081DE;
     }
 
     #main-navbar ul {
@@ -77,7 +78,7 @@ main {
         font-size: 1rem;
         text-decoration: none;
         vertical-align: middle;
-        color: #36a9e0;
+        color: #0081DE;
         margin-right: .5rem;
         text-transform: uppercase;
         font-weight: 700;
@@ -114,7 +115,7 @@ main {
         font-size: .7rem;
         text-decoration: none;
         vertical-align: middle;
-        color: #36a9e0;
+        color: #0081DE;
         margin-right: .25rem;
         text-transform: uppercase;
         font-weight: 700;
@@ -151,7 +152,7 @@ main {
     .profile-text-blue {
         text-align: center;
         margin: 5px 0px 0px 0px;
-        color: #36a9e0;
+        color: #0081DE;
         font-size: 35px;
     }
 
@@ -168,21 +169,21 @@ main {
     }
 
     .profile-buttons button {
-        background-color: #36a9e0;
+        background-color: #0081DE;
         color: #001b2e;
         font-size: 25px;
         padding: 20px;
         margin: 0px 8px 50px;
         border-radius: 60px;
-        border: 1px solid #36a9e0;
+        border: 1px solid #0081DE;
     }
 
     .profile-buttons button:hover {
         background-color: #001b2e;
-        border: #36a9e0;
-        color: #36a9e0;
+        border: #0081DE;
+        color: #0081DE;
         cursor: pointer;
-        border: 1px solid #36a9e0;
+        border: 1px solid #0081DE;
     }
 }
 
@@ -204,7 +205,7 @@ main {
     .profile-text-blue {
         text-align: center;
         margin: 5px 0px 0px 0px;
-        color: #36a9e0;
+        color: #0081DE;
         font-size: 30px;
     }
 
@@ -221,21 +222,21 @@ main {
     }
 
     .profile-buttons button {
-        background-color: #36a9e0;
+        background-color: #0081DE;
         color: #001b2e;
         font-size: 16px;
         padding: 15px;
         margin: 0px 8px 50px;
         border-radius: 60px;
-        border: 1px solid #36a9e0;
+        border: 1px solid #0081DE;
     }
 
     .profile-buttons button:hover {
         background-color: #001b2e;
-        border: #36a9e0;
-        color: #36a9e0;
+        border: #0081DE;
+        color: #0081DE;
         cursor: pointer;
-        border: 1px solid #36a9e0;
+        border: 1px solid #0081DE;
     }
 }
 /*About Me*/
@@ -251,12 +252,12 @@ main {
     }
 
     .about-me h4, span, [href] {
-        color: #36a9e0;
+        color: #0081DE;
         font-weight: bold;
     }
 
     .about-me h2 {
-        color: #36a9e0;
+        color: #0081DE;
         font-weight: bold;
         font-size: 40px;
     }
@@ -274,11 +275,11 @@ main {
     }
 
     .about-follow-text {
-        color: #36a9e0;
+        color: #0081DE;
     }
 
     .socials-buttons button {
-        background-color: #36a9e0;
+        background-color: #0081DE;
         color: #001b2e;
         font-size: 25px;
         padding: 20px;
@@ -289,8 +290,8 @@ main {
 
     .socials-buttons button:hover {
         background-color: #001b2e;
-        border: 1px solid #36a9e0;
-        color: #36a9e0;
+        border: 1px solid #0081DE;
+        color: #0081DE;
         cursor: pointer;
     }
 
@@ -302,10 +303,9 @@ main {
 
     .skills-info div{
         width: 250px;
-        height: 420px;
         margin: 20px 20px 50px;
         display: inline-block;
-        border: 2px solid #897c80;
+        border: 2px solid #0081DE;
         border-radius: 10px;
         padding: 10px;
         text-align: center;
@@ -328,12 +328,12 @@ main {
     }
 
     .about-me h4, span, [href] {
-        color: #36a9e0;
+        color: #0081DE;
         font-weight: bold;
     }
 
     .about-me h2 {
-        color: #36a9e0;
+        color: #0081DE;
         font-weight: bold;
         font-size: 40px;
     }
@@ -351,11 +351,11 @@ main {
     }
 
     .about-follow-text {
-        color: #36a9e0;
+        color: #0081DE;
     }
 
     .socials-buttons button {
-        background-color: #36a9e0;
+        background-color: #0081DE;
         color: #001b2e;
         font-size: 25px;
         padding: 20px;
@@ -366,8 +366,8 @@ main {
 
     .socials-buttons button:hover {
         background-color: #001b2e;
-        border: 1px solid #36a9e0;
-        color: #36a9e0;
+        border: 1px solid #0081DE;
+        color: #0081DE;
         cursor: pointer;
     }
 
@@ -379,10 +379,9 @@ main {
 
     .skills-info div{
         width: 250px;
-        height: 420px;
         margin: 20px 20px 50px;
         display: inline-block;
-        border: 2px solid #897c80;
+        border: 2px solid #0081DE;
         border-radius: 10px;
         padding: 10px;
         text-align: center;
@@ -405,12 +404,12 @@ main {
     }
 
     .about-me h4, span, [href] {
-        color: #36a9e0;
+        color: #0081DE;
         font-weight: bold;
     }
 
     .about-me h2 {
-        color: #36a9e0;
+        color: #0081DE;
         font-weight: bold;
         font-size: 30px;
     }
@@ -430,11 +429,11 @@ main {
     }
 
     .about-follow-text {
-        color: #36a9e0;
+        color: #0081DE;
     }
 
     .socials-buttons button {
-        background-color: #36a9e0;
+        background-color: #0081DE;
         color: #001b2e;
         font-size: 20px;
         padding: 15px;
@@ -445,8 +444,8 @@ main {
 
     .socials-buttons button:hover {
         background-color: #001b2e;
-        border: 1px solid #36a9e0;
-        color: #36a9e0;
+        border: 1px solid #0081DE;
+        color: #0081DE;
         cursor: pointer;
     }
 
@@ -456,12 +455,11 @@ main {
         justify-content: center;
     }
 
-    .skills-info div{
+    .skills-info div {
         width: 240px;
-        height: 380px;
         margin: 20px 20px 50px;
         display: inline-block;
-        border: 2px solid #897c80;
+        border: 2px solid #0081DE;
         border-radius: 10px;
         padding: 10px;
         text-align: center;
@@ -513,7 +511,7 @@ main {
     width: 250px;
     display: inline-block;
     border: 2px solid #001b2e;
-    height: 250px;
+    height: 270px;
     border-radius: 10px;
     vertical-align: middle;
     padding: 10px;
@@ -546,13 +544,13 @@ main {
 }
 
 .experience-education [href]:hover {
-    color: #36a9e0;
+    color: #0081DE;
     text-decoration: none;
 }
 
 .experience-education div button {
     vertical-align: bottom;
-    background-color: #36a9e0;
+    background-color: #0081DE;
     border-radius: 5px;
     font-size: 20px;
     padding: 10px 20px;
@@ -562,10 +560,10 @@ main {
 
 .experience-education div button:hover {
     background-color: #001b2e;
-    border: #36a9e0;
-    color: #36a9e0;
+    border: #0081DE;
+    color: #0081DE;
     cursor: pointer;
-    border: 1px solid #36a9e0;
+    border: 1px solid #0081DE;
 }
 
 .experience-employment h4 {
@@ -593,13 +591,13 @@ main {
 }
 
 .experience-employment [href]:hover {
-    color: #36a9e0;
+    color: #0081DE;
     text-decoration: none;
 }
 
 .experience-employment div button {
     vertical-align: bottom;
-    background-color: #36a9e0;
+    background-color: #0081DE;
     border-radius: 5px;
     font-size: 20px;
     padding: 10px 20px;
@@ -609,10 +607,10 @@ main {
 
 .experience-employment div button:hover {
     background-color: #001b2e;
-    border: #36a9e0;
-    color: #36a9e0;
+    border: #0081DE;
+    color: #0081DE;
     cursor: pointer;
-    border: 1px solid #36a9e0;
+    border: 1px solid #0081DE;
 }
 
 /*Portfolio Section*/
@@ -625,27 +623,56 @@ main {
 
 .portfolio h2 {
     margin-top: 0;
-    color: #36a9e0;
+    color: #0081DE;
     padding-top: 25px;
 }
 
 .portfolio h3 {
     color: white;
+    margin: 2rem;
 }
 
-.projects button, .projects div {
-    height: 225px;
-    width: 225px;
-    border: 2px solid #36a9e0;
-    border-radius: 10px;
+.portfolio-section {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-div {
+    border: 1px solid#0081DE;
+    background-color: #ebebeb;
+    width: 350px;
+    height: 400px;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.portfolio-div a {
+    color: #0081DE;
     background-color: #001b2e;
-    display: inline-block;
-    margin: 5px;
+    width: 150px;
+    padding: 0.75rem;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.projects img {
+.portfolio-div a:hover {
+    color: #001b2e;
+    background-color: #0081DE;
+    width: 150px;
+    padding: 0.75rem;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.portfolio-div h4, p {
+    color: #0081DE;
+}
+
+.portfolio-div img {
     height: 200px;
-    width: 200px;
 }
 
 /*Contact Form*/
@@ -659,7 +686,7 @@ main {
 .contact h2 {
     margin-top: 0;
     padding-top: 20px;
-    color: #36a9e0;
+    color: #0081DE;
 }
 
 .contact p {
@@ -670,7 +697,7 @@ main {
 input[type=text], select, textarea, input[type=email] {
     width: 100%;
     padding: 12px;
-    border: 1px solid #36a9e0;
+    border: 1px solid #0081DE;
     border-radius: 4px;
     box-sizing: border-box;
     margin: 6px 15px 16px 15px;
@@ -682,7 +709,7 @@ input[type=text], select, textarea, input[type=email] {
 
 input[type=submit] {
     background-color: #001b2e;
-    color: #36a9e0;
+    color: #0081DE;
     font-size: 15px;
     padding: 15px 30px;
     margin: 0px 8px 50px;
@@ -691,7 +718,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #36a9e0;
+    background-color: #0081DE;
     color: #001b2e;
     cursor: pointer;
 }
@@ -706,7 +733,7 @@ div form {
 
 /*Footer*/
 footer {
-    background-color: #36a9e0;
+    background-color: #0081DE;
     text-align: center;
 }
 
@@ -741,7 +768,7 @@ footer ul, footer li, footer [href], footer nav {
     text-transform: uppercase;
     font-weight: 400;
     text-decoration: none;
-    background-color: #36a9e0;
+    background-color: #0081DE;
     margin: 0px 10px 5px 10px;
     align-content: center;
     padding: 0px;
