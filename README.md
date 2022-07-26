@@ -34,7 +34,7 @@ To view the project's source code, live demo, and/or direct link to its challeng
 
 ## Status
 
-:arrows_counterclockwise: In progress - Working on portfolio section
+:arrows_counterclockwise: Bug squishing! Getting rid of the last few bugs before trying to incorporate JS into the website!
 
 <img src="resources\img\line-break.png" align="center" width="100%"/>
 
