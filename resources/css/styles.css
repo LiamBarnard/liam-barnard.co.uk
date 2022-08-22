@@ -56,6 +56,7 @@ nav {
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: 700;
+    transition: 0.5s;
 }
 
 .nav-burger {
@@ -172,9 +173,11 @@ transform: rotate(45deg) translate(-5px, -6px);
     .profile-buttons button:hover {
         background-color: transparent;
         border: #0081DE;
+        background-color: #ffc525;
         color: #0081DE;
         cursor: pointer;
         border: 1px solid #0081DE;
+        transition: 0.5s;
     }
 }
 
@@ -228,8 +231,10 @@ transform: rotate(45deg) translate(-5px, -6px);
         background-color: transparent;
         border: #0081DE;
         color: #0081DE;
+        background-color: #ffc525;
         cursor: pointer;
         border: 1px solid #0081DE;
+        transition: 0.5s;
     }
 }
 /*About Me*/
@@ -290,8 +295,10 @@ transform: rotate(45deg) translate(-5px, -6px);
     .socials-buttons button:hover {
         background-color: transparent;
         border: 1px solid #0081DE;
-        color: #0081DE;
+        color: #ffc525;
+        background-color: #0081DE;
         cursor: pointer;
+        transition: 0.5s;
     }
 
     .skills-info {
@@ -371,8 +378,10 @@ transform: rotate(45deg) translate(-5px, -6px);
     .socials-buttons button:hover {
         background-color: transparent;
         border: 1px solid #0081DE;
-        color: #0081DE;
+        color: #ffc525;
+        background-color: #0081DE;
         cursor: pointer;
+        transition: 0.5s;
     }
 
     .skills-info {
@@ -451,8 +460,10 @@ transform: rotate(45deg) translate(-5px, -6px);
     .socials-buttons button:hover {
         background-color: transparent;
         border: 1px solid #0081DE;
-        color: #0081DE;
+        color: #ffc525;
+        background-color: #0081DE;
         cursor: pointer;
+        transition: 0.5s;
     }
 
     .skills-info {
@@ -550,9 +561,10 @@ transform: rotate(45deg) translate(-5px, -6px);
     text-decoration: none;
 }
 
-.experience-education [href]:hover {
+.experience-education a:hover {
     color: #0081DE;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .experience-education div button {
@@ -569,8 +581,10 @@ transform: rotate(45deg) translate(-5px, -6px);
     background-color: transparent;
     border: #0081DE;
     color: #0081DE;
+    background-color: #ffc525;
     cursor: pointer;
     border: 1px solid #0081DE;
+    transition: 0.5s;
 }
 
 .experience-employment h4 {
@@ -600,6 +614,7 @@ transform: rotate(45deg) translate(-5px, -6px);
 .experience-employment [href]:hover {
     color: #0081DE;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .experience-employment div button {
@@ -616,8 +631,10 @@ transform: rotate(45deg) translate(-5px, -6px);
     background-color: transparent;
     border: #0081DE;
     color: #0081DE;
+    background-color: #ffc525;
     cursor: pointer;
     border: 1px solid #0081DE;
+    transition: 0.5s;
 }
 
 /*Portfolio Section*/
@@ -679,6 +696,7 @@ background: linear-gradient(90deg, rgba(0,129,222,1) 0%, rgba(0,27,46,1) 100%, r
     border-radius: 25px;
     text-align: center;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .portfolio-div h4, p {
@@ -737,6 +755,7 @@ input[type=submit]:hover {
     background-color: #0081DE;
     color: #001b2e;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 ::placeholder {
