@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="description" content="Cloud Support Engineer based in Aylesbury, UK.">
+    <meta name="keywords" content="HTML, HTML5, CSS, CSS3, Javascript">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="resources\CSS\styles.css">
     <title>Liam B's Portfolio</title>
 </head>
@@ -12,13 +17,18 @@
         <!--Nav Bar-->
         <nav id="main-navbar">
             <h1>LIAM B</h1>
-            <ul>
-                <li class="hover-blue"><a href="#top">Home</a></li>
-                <li class="hover-blue"><a href="#about-me">About</a></li>
-                <li class="hover-blue"><a href="#experience">Experience</a></li>
-                <li class="hover-blue"><a href="#portfolio">Portfolio</a></li>
-                <li class="hover-blue"><a href="#contact">Contact</a></li>
+            <ul class="nav-links">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="nav-burger">
+                <div class="burger-line-1"></div>
+                <div class="burger-line-2"></div>
+                <div class="burger-line-3"></div>
+            </div>
         </nav>
     </header>
     <main>
@@ -132,13 +142,13 @@
                     <h4 class="portfolio-div-header">The Proactive Project</h4>
                     <p>A portfolio style website I built for a friend.</p>
                     <img src="resources\img\pf-theproactiveproject-logo.png" alt="The Proactive Project Logo">
-                    <p><a href="https://theproactiveproject.co.uk">Link to Website</a></p>
+                    <p><a href="https://theproactiveproject.co.uk" target="_blank">Link to Website</a></p>
                 </div>
                 <div class="portfolio-div">
                     <h4 class="portfolio-div-header">White Mercury</h4>
                     <p>My personal portfolio of practice Javascript projects.</p>
                     <img src="resources\img\pf-white-mercury.png" alt="White-Mercury Logo">
-                    <p><a href="https://white-mercury.liam-barnard.co.uk/">Link to Website</a></p>
+                    <p><a href="https://white-mercury.liam-barnard.co.uk/" target="_blank">Link to Website</a></p>
                 </div>
             </div>
         </section>
@@ -171,11 +181,11 @@
         <div class="footer-nav">
             <nav id="footer">
                 <ul>
-                    <li class="hover-blue"><a href="#home">Home</a></li>
-                    <li class="hover-blue"><a href="#about-me">About</a></li>
-                    <li class="hover-blue"><a href="#experience">Experience</a></li>
-                    <li class="hover-blue"><a href="#portfolio">Portfolio</a></li>
-                    <li class="hover-blue"><a href="#contact">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -185,5 +195,6 @@
         </div>
         <h4>Copyright &copy; 2022 Liam Barnard. All Rights Reserved.</h4>
     </footer>
+    <script src="resources/scripts/nav-script.js"></script>
 </body>
 </html>
